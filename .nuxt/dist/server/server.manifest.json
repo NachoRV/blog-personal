@@ -1,0 +1,21 @@
+{
+  "entry": "server.js",
+  "files": {
+    "components/global/InfoBox.js": "components/global/InfoBox.js",
+    "components/global/PrevNext.js": "components/global/PrevNext.js",
+    "pages/blog/_slug.js": "pages/blog/_slug.js",
+    "pages/blog/author/_author.js": "pages/blog/author/_author.js",
+    "pages/blog/tag/_tag.js": "pages/blog/tag/_tag.js",
+    "pages/index.js": "pages/index.js",
+    "server.js": "server.js"
+  },
+  "maps": {
+    "components/global/InfoBox.js": "components/global/InfoBox.js.map",
+    "components/global/PrevNext.js": "components/global/PrevNext.js.map",
+    "pages/blog/_slug.js": "pages/blog/_slug.js.map",
+    "pages/blog/author/_author.js": "pages/blog/author/_author.js.map",
+    "pages/blog/tag/_tag.js": "pages/blog/tag/_tag.js.map",
+    "pages/index.js": "pages/index.js.map",
+    "server.js": "server.js.map"
+  }
+}
