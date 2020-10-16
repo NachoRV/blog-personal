@@ -48,7 +48,7 @@
       <!-- table of contents -->
       <nav class="pb-6">
         <ul>
-          <li
+          <!-- <li
             v-for="link of article.toc"
             :key="link.id"
             :class="{
@@ -64,7 +64,7 @@
               }"
               >{{ link.text }}</nuxtLink
             >
-          </li>
+          </li> -->
         </ul>
       </nav>
       <!-- content from markdown -->

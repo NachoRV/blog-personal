@@ -1,0 +1,14 @@
+.contenedor{
+  flex-direction: row;
+  border: solid 1px red;
+  width: 600px;
+  height: 200px;
+}
+
+.item {
+  display: inline;
+  border: solid 1px red;
+  width: 190px;
+  height: 190px;
+  margin:0;
+}

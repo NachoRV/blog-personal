@@ -1,0 +1,26 @@
+.contenedor{
+  display: flex;
+  width: 300px;
+  height: 200px;
+}
+
+.item {
+  width: 100px;
+  height: 100px;
+  margin:0;
+  margin: auto;
+}
+.item-one{
+  background-color: red;
+}
+.item-two{
+  background-color: blue;
+}
+.item-tree{
+  background-color: green;
+}
+.position {
+  position: fixed;
+  bottom: 10px;
+  left: 90%;
+}

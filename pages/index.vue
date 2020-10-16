@@ -46,19 +46,19 @@
           href="https://twitter.com/Nachor_v"
           target="_blank"
         >
-        <img src="~assets/svg/twitter.svg" alt="twitter" class="icon">
+        <img src="~assets/svg/twitter-2.svg" alt="twitter" class="icon">
       </a>
       <a
           href="https://www.linkedin.com/in/ignacioroyovillanova/"
           target="_blank"
         >
-        <img src="~assets/svg/linkedin.svg" alt="twitter" class="icon">
+        <img src="~assets/svg/linkedin-2.svg" alt="twitter" class="icon">
       </a>
       <a
           href="https://github.com/NachoRV"
           target="_blank"
         >
-        <img src="~assets/svg/github.svg" alt="twitter" class="icon">
+        <img src="~assets/svg/github-2.svg" alt="twitter" class="icon">
       </a>
         
       </p>
@@ -99,6 +99,9 @@ export default {
 <style class="postcss">
 .icon{
   margin: 0;
+  width: 24px;
+  height: 24px;
+  margin-left: 5px;;
 }
 .titel {
   margin: 10px 5px;
