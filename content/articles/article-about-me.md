@@ -12,9 +12,9 @@ tags:
   - Otros
 ---
 
-## Sobre mí
+## Hola
 <br>
-Me llamo Nacho, soy Frontend developer especializado en aplicaciones web. Actualmente y desde hace ya algunos años desarrollo mí trabajo con Vue, Angular, y lo tanto el ecosistema que rodea a estos framework como vuex, ngRx, RxJS...  
+Me llamo Nacho, soy Frontend developer especializado en aplicaciones web. Actualmente y desde hace ya algunos años desarrollo mí trabajo con Vue, Angular, y por lo tanto el ecosistema que rodea a estos framework como vuex, ngRx, RxJS...  
 
 <br>Ademas del frontend me gusata cacharrear, por lo que en este blog puedes encontrar entradas de diversos temas relacionados con la programación.  
 

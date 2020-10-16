@@ -2,25 +2,29 @@
   {
     "name": "blog-author-author",
     "path": "/blog/author/:author?",
-    "component": "D:\\\\vue\\\\blog-personal\\\\pages\\\\blog\\\\author\\\\_author.vue",
-    "chunkName": "pages/blog/author/_author"
+    "component": "/Users/irvb/NACHO/dev/Blog/pages/blog/author/_author.vue",
+    "chunkName": "pages/blog/author/_author",
+    "_name": "_0f53907f"
   },
   {
     "name": "blog-tag-tag",
     "path": "/blog/tag/:tag?",
-    "component": "D:\\\\vue\\\\blog-personal\\\\pages\\\\blog\\\\tag\\\\_tag.vue",
-    "chunkName": "pages/blog/tag/_tag"
+    "component": "/Users/irvb/NACHO/dev/Blog/pages/blog/tag/_tag.vue",
+    "chunkName": "pages/blog/tag/_tag",
+    "_name": "_2513636e"
   },
   {
     "name": "blog-slug",
     "path": "/blog/:slug?",
-    "component": "D:\\\\vue\\\\blog-personal\\\\pages\\\\blog\\\\_slug.vue",
-    "chunkName": "pages/blog/_slug"
+    "component": "/Users/irvb/NACHO/dev/Blog/pages/blog/_slug.vue",
+    "chunkName": "pages/blog/_slug",
+    "_name": "_9b77d57e"
   },
   {
     "name": "index",
     "path": "/",
-    "component": "D:\\\\vue\\\\blog-personal\\\\pages\\\\index.vue",
-    "chunkName": "pages/index"
+    "component": "/Users/irvb/NACHO/dev/Blog/pages/index.vue",
+    "chunkName": "pages/index",
+    "_name": "_8562bec4"
   }
 ]
