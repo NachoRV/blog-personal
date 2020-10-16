@@ -12,9 +12,9 @@ import { setContext, getLocation, getRouteData, normalizeError } from './utils'
 
 /* Plugins */
 
-import nuxt_plugin_plugin_3e3485ac from 'nuxt_plugin_plugin_3e3485ac' // Source: ./components/plugin.js (mode: 'all')
-import nuxt_plugin_pluginclient_5d90e3a6 from 'nuxt_plugin_pluginclient_5d90e3a6' // Source: ./content/plugin.client.js (mode: 'client')
-import nuxt_plugin_pluginserver_796b55a4 from 'nuxt_plugin_pluginserver_796b55a4' // Source: ./content/plugin.server.js (mode: 'server')
+import nuxt_plugin_plugin_ddcacb40 from 'nuxt_plugin_plugin_ddcacb40' // Source: .\\components\\plugin.js (mode: 'all')
+import nuxt_plugin_pluginclient_7ae7cb16 from 'nuxt_plugin_pluginclient_7ae7cb16' // Source: .\\content\\plugin.client.js (mode: 'client')
+import nuxt_plugin_pluginserver_3ebd86c4 from 'nuxt_plugin_pluginserver_3ebd86c4' // Source: .\\content\\plugin.server.js (mode: 'server')
 
 // Component: <ClientOnly>
 Vue.component(ClientOnly.name, ClientOnly)
@@ -53,7 +53,7 @@ async function createApp(ssrContext, config = {}) {
   // here we inject the router and store to all child components,
   // making them available everywhere as `this.$router` and `this.$store`.
   const app = {
-    head: {"title":"nuxt-content-article","meta":[{"charset":"utf-8"},{"name":"viewport","content":"width=device-width, initial-scale=1"},{"hid":"description","name":"description","content":"The [content module](https:\u002F\u002Fcontent.nuxtjs.org\u002F) is a git files based headless CMS that provides powerful features when it comes to write blogs, documentation sites or just adding content to any regular website. In this post we will go through most of the benefits of this module and discover how we can create a blog with it."}],"link":[{"rel":"icon","type":"image\u002Fx-icon","href":"\u002Ffavicon.ico"}],"style":[],"script":[]},
+    head: {"title":"nuxt-content-article","meta":[{"charset":"utf-8"},{"name":"viewport","content":"width=device-width, initial-scale=1"},{"hid":"description","name":"description","content":"[url](https:\u002F\u002Fblog-irvb.netlify.app\u002F)\r # nuxt-content-article"}],"link":[{"rel":"icon","type":"image\u002Fx-icon","href":"\u002Ffavicon.ico"}],"style":[],"script":[]},
 
     router,
     nuxt: {
@@ -167,16 +167,16 @@ async function createApp(ssrContext, config = {}) {
   }
   // Plugin execution
 
-  if (typeof nuxt_plugin_plugin_3e3485ac === 'function') {
-    await nuxt_plugin_plugin_3e3485ac(app.context, inject)
+  if (typeof nuxt_plugin_plugin_ddcacb40 === 'function') {
+    await nuxt_plugin_plugin_ddcacb40(app.context, inject)
   }
 
-  if (process.client && typeof nuxt_plugin_pluginclient_5d90e3a6 === 'function') {
-    await nuxt_plugin_pluginclient_5d90e3a6(app.context, inject)
+  if (process.client && typeof nuxt_plugin_pluginclient_7ae7cb16 === 'function') {
+    await nuxt_plugin_pluginclient_7ae7cb16(app.context, inject)
   }
 
-  if (process.server && typeof nuxt_plugin_pluginserver_796b55a4 === 'function') {
-    await nuxt_plugin_pluginserver_796b55a4(app.context, inject)
+  if (process.server && typeof nuxt_plugin_pluginserver_3ebd86c4 === 'function') {
+    await nuxt_plugin_pluginserver_3ebd86c4(app.context, inject)
   }
 
   // Lock enablePreview in context
