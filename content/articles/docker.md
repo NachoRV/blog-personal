@@ -153,6 +153,11 @@ docker run -d -p 8080:8080 --name "spring_boot_app" -e "SPRING_PROFILES_ACTIVE=l
 7. **-p**: el formato es host_port:container_port. En este caso, el puerto 8080 de la máquina lo redirijimos al puerto 8080 del contenedor (por el que está escuchando el microservicio).
 8. **-t**: para indicar qué imagen queremos ejecutar
 
+para lanzar una shell
+```sh
+docker exec -it postgres-openathon sh
+```
+
 Para más información, mirar https://docs.docker.com/engine/reference/commandline/run/.
 # Volumenes
 ## ¿Cómo funciona?
