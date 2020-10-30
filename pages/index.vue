@@ -89,7 +89,6 @@ export default {
   },
   methods: {
     showNav(e) {
-      console.log(e)
       this.open = e
     }
   },

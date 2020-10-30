@@ -3,10 +3,11 @@ import Router from 'vue-router'
 import { interopDefault } from './utils'
 import scrollBehavior from './router.scrollBehavior.js'
 
-const _0f53907f = () => interopDefault(import('../pages/blog/author/_author.vue' /* webpackChunkName: "pages/blog/author/_author" */))
-const _2513636e = () => interopDefault(import('../pages/blog/tag/_tag.vue' /* webpackChunkName: "pages/blog/tag/_tag" */))
-const _9b77d57e = () => interopDefault(import('../pages/blog/_slug.vue' /* webpackChunkName: "pages/blog/_slug" */))
-const _8562bec4 = () => interopDefault(import('../pages/index.vue' /* webpackChunkName: "pages/index" */))
+const _e7e5046a = () => interopDefault(import('../pages/blog/author/_author.vue' /* webpackChunkName: "pages/blog/author/_author" */))
+const _424f2495 = () => interopDefault(import('../pages/blog/tag/_tag.vue' /* webpackChunkName: "pages/blog/tag/_tag" */))
+const _2cd85c20 = () => interopDefault(import('../pages/blog/_slug copy.vue' /* webpackChunkName: "pages/blog/_slug copy" */))
+const _ad707b16 = () => interopDefault(import('../pages/blog/_slug.vue' /* webpackChunkName: "pages/blog/_slug" */))
+const _3cd882ea = () => interopDefault(import('../pages/index.vue' /* webpackChunkName: "pages/index" */))
 
 // TODO: remove in Nuxt 3
 const emptyFn = () => {}
@@ -26,19 +27,23 @@ export const routerOptions = {
 
   routes: [{
     path: "/blog/author/:author?",
-    component: _0f53907f,
+    component: _e7e5046a,
     name: "blog-author-author"
   }, {
     path: "/blog/tag/:tag?",
-    component: _2513636e,
+    component: _424f2495,
     name: "blog-tag-tag"
   }, {
+    path: "/blog/:slug copy?",
+    component: _2cd85c20,
+    name: "blog-slug copy"
+  }, {
     path: "/blog/:slug?",
-    component: _9b77d57e,
+    component: _ad707b16,
     name: "blog-slug"
   }, {
     path: "/",
-    component: _8562bec4,
+    component: _3cd882ea,
     name: "index"
   }],
 
