@@ -2,36 +2,36 @@
   {
     "name": "blog-author-author",
     "path": "/blog/author/:author?",
-    "component": "/home/irvb/repos/blog-personal/pages/blog/author/_author.vue",
+    "component": "D:\\\\vue\\\\blog-personal\\\\pages\\\\blog\\\\author\\\\_author.vue",
     "chunkName": "pages/blog/author/_author",
-    "_name": "_e7e5046a"
+    "_name": "_4596cb62"
   },
   {
     "name": "blog-tag-tag",
     "path": "/blog/tag/:tag?",
-    "component": "/home/irvb/repos/blog-personal/pages/blog/tag/_tag.vue",
+    "component": "D:\\\\vue\\\\blog-personal\\\\pages\\\\blog\\\\tag\\\\_tag.vue",
     "chunkName": "pages/blog/tag/_tag",
-    "_name": "_424f2495"
+    "_name": "_11a3c518"
   },
   {
     "name": "blog-slug copy",
     "path": "/blog/:slug copy?",
-    "component": "/home/irvb/repos/blog-personal/pages/blog/_slug copy.vue",
+    "component": "D:\\\\vue\\\\blog-personal\\\\pages\\\\blog\\\\_slug copy.vue",
     "chunkName": "pages/blog/_slug copy",
-    "_name": "_2cd85c20"
+    "_name": "_25f71238"
   },
   {
     "name": "blog-slug",
     "path": "/blog/:slug?",
-    "component": "/home/irvb/repos/blog-personal/pages/blog/_slug.vue",
+    "component": "D:\\\\vue\\\\blog-personal\\\\pages\\\\blog\\\\_slug.vue",
     "chunkName": "pages/blog/_slug",
-    "_name": "_ad707b16"
+    "_name": "_6bdf752d"
   },
   {
     "name": "index",
     "path": "/",
-    "component": "/home/irvb/repos/blog-personal/pages/index.vue",
+    "component": "D:\\\\vue\\\\blog-personal\\\\pages\\\\index.vue",
     "chunkName": "pages/index",
-    "_name": "_3cd882ea"
+    "_name": "_2a323097"
   }
 ]

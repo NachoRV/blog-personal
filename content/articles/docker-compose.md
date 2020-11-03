@@ -1,3 +1,16 @@
+---
+title: Sobre mí
+description: Breve descripción sobre mi persona  y el origen de este blog
+# img: https://images.unsplash.com/photo-1580752300992-559f8e0734e0?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80
+img: https://cdn.pixabay.com/photo/2015/03/26/10/42/letters-691842_960_720.jpg
+alt: nice image
+author: 
+  name: Nacho
+  bio: Para que nos conozcamos un poco mejor ... 
+  img: /yo.jpg
+tags: 
+  - Docker
+---
 
 ## ¿Qué es docker-compose?
 Se trata de una herramienta ideal para ejecutar **stacks** de aplicaciones contenerizadas. Por ejemplo, un conjunto de servicios que requieren ser orquestados de forma conjunta. Un caso típico es una aplicación compuesta de un front-end, un back-end y una capa de persistencia. Mediante una definición YAML, se configuran todos los servicios implicados en el stack y, mediante un único comando, permite desplegar el stack completo de servicios.

@@ -1,12 +1,63 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="f800bf72-4ccd-44b9-b738-e30240069e98" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/dist/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/layouts/default.vue" beforeDir="false" afterPath="$PROJECT_DIR$/layouts/default.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/blog/_slug.vue" beforeDir="false" afterPath="$PROJECT_DIR$/pages/blog/_slug.vue" afterDir="false" />
+    <list default="true" id="64b241bf-6dee-4aad-b7cb-0d262121dd0b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/content/tags/docker.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.nuxt/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/.nuxt/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.nuxt/client.js" beforeDir="false" afterPath="$PROJECT_DIR$/.nuxt/client.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.nuxt/components/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/.nuxt/components/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.nuxt/components/nuxt-build-indicator.vue" beforeDir="false" afterPath="$PROJECT_DIR$/.nuxt/components/nuxt-build-indicator.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.nuxt/components/nuxt-child.js" beforeDir="false" afterPath="$PROJECT_DIR$/.nuxt/components/nuxt-child.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.nuxt/components/nuxt-error.vue" beforeDir="false" afterPath="$PROJECT_DIR$/.nuxt/components/nuxt-error.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.nuxt/components/nuxt-link.client.js" beforeDir="false" afterPath="$PROJECT_DIR$/.nuxt/components/nuxt-link.client.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.nuxt/components/nuxt-link.server.js" beforeDir="false" afterPath="$PROJECT_DIR$/.nuxt/components/nuxt-link.server.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.nuxt/components/nuxt-loading.vue" beforeDir="false" afterPath="$PROJECT_DIR$/.nuxt/components/nuxt-loading.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.nuxt/components/nuxt.js" beforeDir="false" afterPath="$PROJECT_DIR$/.nuxt/components/nuxt.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.nuxt/components/plugin.js" beforeDir="false" afterPath="$PROJECT_DIR$/.nuxt/components/plugin.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.nuxt/content/editor.vue" beforeDir="false" afterPath="$PROJECT_DIR$/.nuxt/content/editor.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.nuxt/content/nuxt-content.dev.vue" beforeDir="false" afterPath="$PROJECT_DIR$/.nuxt/content/nuxt-content.dev.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.nuxt/content/nuxt-content.js" beforeDir="false" afterPath="$PROJECT_DIR$/.nuxt/content/nuxt-content.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.nuxt/content/plugin.client.js" beforeDir="false" afterPath="$PROJECT_DIR$/.nuxt/content/plugin.client.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.nuxt/content/plugin.server.js" beforeDir="false" afterPath="$PROJECT_DIR$/.nuxt/content/plugin.server.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.nuxt/content/query-builder.js" beforeDir="false" afterPath="$PROJECT_DIR$/.nuxt/content/query-builder.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.nuxt/empty.js" beforeDir="false" afterPath="$PROJECT_DIR$/.nuxt/empty.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.nuxt/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/.nuxt/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.nuxt/jsonp.js" beforeDir="false" afterPath="$PROJECT_DIR$/.nuxt/jsonp.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.nuxt/loading.html" beforeDir="false" afterPath="$PROJECT_DIR$/.nuxt/loading.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.nuxt/middleware.js" beforeDir="false" afterPath="$PROJECT_DIR$/.nuxt/middleware.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.nuxt/mixins/fetch.client.js" beforeDir="false" afterPath="$PROJECT_DIR$/.nuxt/mixins/fetch.client.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.nuxt/mixins/fetch.server.js" beforeDir="false" afterPath="$PROJECT_DIR$/.nuxt/mixins/fetch.server.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.nuxt/router.js" beforeDir="false" afterPath="$PROJECT_DIR$/.nuxt/router.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.nuxt/router.scrollBehavior.js" beforeDir="false" afterPath="$PROJECT_DIR$/.nuxt/router.scrollBehavior.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.nuxt/routes.json" beforeDir="false" afterPath="$PROJECT_DIR$/.nuxt/routes.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.nuxt/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/.nuxt/server.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.nuxt/utils.js" beforeDir="false" afterPath="$PROJECT_DIR$/.nuxt/utils.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.nuxt/vetur/tags.json" beforeDir="false" afterPath="$PROJECT_DIR$/.nuxt/vetur/tags.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.nuxt/views/app.template.html" beforeDir="false" afterPath="$PROJECT_DIR$/.nuxt/views/app.template.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.nuxt/views/error.html" beforeDir="false" afterPath="$PROJECT_DIR$/.nuxt/views/error.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/articles/docker-compose.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/articles/docker-compose.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/articles/docker.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/articles/docker.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/pages/index.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -14,6 +65,11 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1jjyI8YkxfSmPMinOxVFvIGe6az" />
@@ -24,24 +80,31 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/content/tags" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.stylelint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.path.for.package.stylelint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
-    <property name="node.js.selected.package.stylelint" value="$PROJECT_DIR$/node_modules/stylelint" />
+    <property name="node.js.selected.package.stylelint" value="D:\vue\blog-personal\node_modules\stylelint" />
     <property name="nodejs_package_manager_path" value="yarn" />
     <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\vue\blog-personal\content\tags" />
+    </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="f800bf72-4ccd-44b9-b738-e30240069e98" name="Default Changelist" comment="" />
+      <changelist id="64b241bf-6dee-4aad-b7cb-0d262121dd0b" name="Default Changelist" comment="" />
       <created>1604331715879</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1604331715879</updated>
       <workItem from="1604331717640" duration="2336000" />
+      <workItem from="1604391776610" duration="2144000" />
     </task>
     <servers />
   </component>
@@ -58,6 +121,18 @@
       </list>
     </option>
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="save" />
     <option name="LAST_COMMIT_MESSAGE" value="save" />
@@ -67,9 +142,10 @@
       <screen x="72" y="27" width="888" height="573" />
     </state>
     <state x="72" y="27" key="CommitChangelistDialog2/72.27.888.573/960.0.960.540@72.27.888.573" timestamp="1604386103925" />
-    <state x="2020" y="100" width="1720" height="880" key="DiffContextDialog" timestamp="1604332773337">
-      <screen x="1920" y="0" width="1920" height="1080" />
+    <state x="-1820" y="-216" width="1720" height="848" key="DiffContextDialog" timestamp="1604391475205">
+      <screen x="-1920" y="-312" width="1920" height="1040" />
     </state>
+    <state x="-1820" y="-216" width="1720" height="848" key="DiffContextDialog/0.0.1366.728/-1920.-312.1920.1040@-1920.-312.1920.1040" timestamp="1604391475205" />
     <state x="2020" y="100" width="1720" height="880" key="DiffContextDialog/72.27.1848.1173/1920.0.1920.1080@1920.0.1920.1080" timestamp="1604332773337" />
     <state x="2677" y="223" width="395" height="640" key="RollbackChangesDialog" timestamp="1604332685391">
       <screen x="1920" y="0" width="1920" height="1080" />
@@ -79,6 +155,10 @@
       <screen x="72" y="27" width="888" height="573" />
     </state>
     <state x="72" y="60" width="800" height="540" key="Vcs.Push.Dialog.v2/72.27.888.573/960.0.960.540@72.27.888.573" timestamp="1604386112404" />
+    <state x="-1180" y="-79" key="git4idea.branch.GitSmartOperationDialog" timestamp="1604391190714">
+      <screen x="-1920" y="-312" width="1920" height="1040" />
+    </state>
+    <state x="-1180" y="-79" key="git4idea.branch.GitSmartOperationDialog/0.0.1366.728/-1920.-312.1920.1040@-1920.-312.1920.1040" timestamp="1604391190714" />
     <state x="2543" y="239" width="672" height="678" key="search.everywhere.popup" timestamp="1604332231157">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>

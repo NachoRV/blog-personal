@@ -1,14 +1,14 @@
 <template>
-  <div class="m-8 container">
+  <div class="m-8 ">
     <TheHeader v-on:show="showNav($event)"/>
     <div v-if="open" class="nav-destockp">
       <h3 class="mb-4 font-bold text-2xl uppercase text-center">Categorias</h3>
       <ul class="flex flex-wrap mb-4 text-center">
         <li v-for="tag of tags" :key="tag.slug" class="xs:w-full md:w-1/3 lg:flex-1 px-2 text-center">
           <NuxtLink :to="`/blog/tag/${tag.slug}`" class>
-            <p
+            <pcontainer
                 class="font-bold text-gray-600 uppercase tracking-wider font-medium text-ss"
-            >{{ tag.name }}</p>
+            >{{ tag.name }}</pcontainer>
           </NuxtLink>
       </li>
     </ul>
@@ -28,6 +28,7 @@
             v-if="article.img"
             class="h-48 xxlmin:w-1/2 xxlmax:w-full object-cover"
             :src="article.img"
+            alt="img articulo"
           />
 
           <div class="p-6 flex flex-col justify-between xxlmin:w-1/2 xxlmax:w-full">
