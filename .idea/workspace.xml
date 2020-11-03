@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="f800bf72-4ccd-44b9-b738-e30240069e98" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/dist/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/layouts/default.vue" beforeDir="false" afterPath="$PROJECT_DIR$/layouts/default.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/blog/_slug.vue" beforeDir="false" afterPath="$PROJECT_DIR$/pages/blog/_slug.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/pages/index.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1jjyI8YkxfSmPMinOxVFvIGe6az" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.stylelint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.stylelint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.stylelint" value="$PROJECT_DIR$/node_modules/stylelint" />
+    <property name="nodejs_package_manager_path" value="yarn" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f800bf72-4ccd-44b9-b738-e30240069e98" name="Default Changelist" comment="" />
+      <created>1604331715879</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1604331715879</updated>
+      <workItem from="1604331717640" duration="2336000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ORDER">
+      <list>
+        <option value="0" />
+        <option value="2" />
+        <option value="3" />
+        <option value="1" />
+      </list>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="save" />
+    <option name="LAST_COMMIT_MESSAGE" value="save" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="72" y="27" key="CommitChangelistDialog2" timestamp="1604386103925">
+      <screen x="72" y="27" width="888" height="573" />
+    </state>
+    <state x="72" y="27" key="CommitChangelistDialog2/72.27.888.573/960.0.960.540@72.27.888.573" timestamp="1604386103925" />
+    <state x="2020" y="100" width="1720" height="880" key="DiffContextDialog" timestamp="1604332773337">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2020" y="100" width="1720" height="880" key="DiffContextDialog/72.27.1848.1173/1920.0.1920.1080@1920.0.1920.1080" timestamp="1604332773337" />
+    <state x="2677" y="223" width="395" height="640" key="RollbackChangesDialog" timestamp="1604332685391">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2677" y="223" width="395" height="640" key="RollbackChangesDialog/72.27.1848.1173/1920.0.1920.1080@1920.0.1920.1080" timestamp="1604332685391" />
+    <state x="72" y="60" width="800" height="540" key="Vcs.Push.Dialog.v2" timestamp="1604386112404">
+      <screen x="72" y="27" width="888" height="573" />
+    </state>
+    <state x="72" y="60" width="800" height="540" key="Vcs.Push.Dialog.v2/72.27.888.573/960.0.960.540@72.27.888.573" timestamp="1604386112404" />
+    <state x="2543" y="239" width="672" height="678" key="search.everywhere.popup" timestamp="1604332231157">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2543" y="239" width="672" height="678" key="search.everywhere.popup/72.27.1848.1173/1920.0.1920.1080@1920.0.1920.1080" timestamp="1604332231157" />
+  </component>
+</project>

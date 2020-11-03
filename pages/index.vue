@@ -1,15 +1,15 @@
 <template>
-  <div class="m-8">
+  <div class="m-8 container">
     <TheHeader v-on:show="showNav($event)"/>
     <div v-if="open" class="nav-destockp">
-    <h3 class="mb-4 font-bold text-2xl uppercase text-center">Categorias</h3>
-    <ul class="flex flex-wrap mb-4 text-center">
-      <li v-for="tag of tags" :key="tag.slug" class="xs:w-full md:w-1/3 lg:flex-1 px-2 text-center">
-        <NuxtLink :to="`/blog/tag/${tag.slug}`" class>
-          <p
-            class="font-bold text-gray-600 uppercase tracking-wider font-medium text-ss"
-          >{{ tag.name }}</p>
-        </NuxtLink>
+      <h3 class="mb-4 font-bold text-2xl uppercase text-center">Categorias</h3>
+      <ul class="flex flex-wrap mb-4 text-center">
+        <li v-for="tag of tags" :key="tag.slug" class="xs:w-full md:w-1/3 lg:flex-1 px-2 text-center">
+          <NuxtLink :to="`/blog/tag/${tag.slug}`" class>
+            <p
+                class="font-bold text-gray-600 uppercase tracking-wider font-medium text-ss"
+            >{{ tag.name }}</p>
+          </NuxtLink>
       </li>
     </ul>
    </div>
@@ -96,7 +96,12 @@ export default {
 </script>
 
 <style class="postcss">
-.icon{
+.container {
+  width: 100%;
+  margin: auto;
+}
+
+.icon {
   margin: 0;
   width: 24px;
   height: 24px;

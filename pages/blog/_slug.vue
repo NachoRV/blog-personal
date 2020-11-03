@@ -5,28 +5,28 @@
       <AppSearchInput />
    </div>
   <article class="article">
-
-    <div class="img-container">
+    <div class="img-container shadow-md">
       <img
-        :src="article.img"
-        :alt="article.alt"
-        class="img"
+          :src="article.img"
+          :alt="article.alt"
+          class="img shadow"
       />
     </div>
-    <div class="relative top-3rem ">
-      <p>{{ article.author.name }}</p>
-      <h1 class="text-6xl font-bold">{{ article.title }}</h1>
-      <p>{{ article.author.name }}</p>
-      <span v-for="(tag, id) in article.tags" :key="id">
+    <div class="content">
+      <div class="content-item">
+        <h1 class="font-bold article-title">{{ article.title }}</h1>
+        📅 {{ formatDate(article.updatedAt) }} |
+        <span v-for="(tag, id) in article.tags" :key="id">
           <NuxtLink :to="`/blog/tag/${tags[tag].slug}`">
             <span
-              class="truncate uppercase tracking-wider font-medium text-ss px-2 py-1 rounded-full mr-2 mb-2 border border-light-border dark:border-dark-border transition-colors duration-300 ease-linear"
+                class=""
             >
               {{ tags[tag].name }}
             </span>
           </NuxtLink>
         </span>
-      <p class="pb-4">Post last updated: {{ formatDate(article.updatedAt) }}</p>
+
+      </div>
       <!-- content from markdown -->
       <nuxt-content :document="article" />
       <!-- content author component -->
@@ -67,35 +67,50 @@ export default {
 }
 </script>
 <style>
-.sb{
+.sb {
   justify-content: space-between;
 }
-.article{
+
+.article {
   display: flex;
   flex-direction: column;
 }
-.img {
-  display: block;
-  width: 100%;
-  height: auto;
-  max-height: 800px;
+
+.article-title {
+  font-size: 30px;
 }
+
 .img-container {
-  width: 80%;
-  height: 200px;
-  margin: 40px auto;
+  margin: 5% auto 5% auto;
+  width: 50%;
+  max-height: 500px;
 }
-.content{
-  position: absolute;
-  top: 800px;
+
+.img {
+  width: 100%;
+  max-height: 500px;
+  max-width: 100%;
+  margin: auto;
 }
+
+.content {
+  margin: 15px auto;
+  max-width: 50%;
+}
+
+.content-item {
+  margin-bottom: 50px;
+}
+
 .nuxt-content p {
   margin-bottom: 20px;
 }
+
 .nuxt-content h2 {
   font-weight: bold;
   font-size: 28px;
 }
+
 .nuxt-content h3 {
   font-weight: bold;
   font-size: 22px;

@@ -7,9 +7,10 @@
 <style>
 html {
   font-family: 'Source Sans Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI',
-    Roboto, 'Helvetica Neue', Arial, sans-serif;
+  Roboto, 'Helvetica Neue', Arial, sans-serif;
   font-size: 16px;
   word-spacing: 1px;
+  width: 100vw !important;
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
   -moz-osx-font-smoothing: grayscale;
@@ -22,5 +23,9 @@ html {
 *::after {
   box-sizing: border-box;
   margin: 0;
+}
+
+body {
+  width: 100vw;
 }
 </style>
